@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login</title>
+    <link rel="shortcut icon" href="Login 1.png" type="image/x-icon">
+    <script src="https://kit.fontawesome.com/062ecc5e49.js" crossorigin="anonymous"></script>
+    <style>
+        .container{
+            justify-content: center;
+            display: flex;
+            margin-top: 20px;
+            font-size: 20px;
+        }
+        .login-form{
+            display: flex;
+            flex-direction: column;
+            width: 50%;
+        }
+        
+        .login-form input{
+            margin-top: 10px;
+            font-size: 20px;
+            
+
+            
+        }
+        .login-form input[type=submit]{
+            color: rgb(229, 205, 229);
+            background-color: rgb(69, 103, 198);
+            border: none;
+            font-weight: 700;
+            border-radius: 10px;    
+        }
+        .top-ber a{
+            text-decoration: none;
+            color: black;
+            margin: 5px 10px;
+        }
+        .top-ber{
+            display: flex;
+            justify-content: space-between;
+        }
+        
+    </style>
+</head>
+<body>
+   <nav class="top-ber">
+        <span>
+            <a href="">Profail</a>
+            <a href="">Dashboard</a>
+            <a href="">Home</a>
+            <a href="">Over</a>
+        </span>
+        <span>
+            <a href=""><i class="fa-solid fa-user"></i></a>
+            <a href=""><i class="fa-solid fa-right-from-bracket"></i></a>
+        </span>
+   </nav>
+    <section class="container">
+        <form class="login-form">
+            <h3>Please Login</h3>
+            <input type="email" name="" id="" placeholder="Write your Email" required>
+            <input type="password" name="" id="" placeholder="Password" required>
+            <input type="submit" value="Login">
+        </form>
+    </section>
+</body>
+</html>
